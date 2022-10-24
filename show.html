@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>404</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-diamond"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>logo检测演示</h1>
+								<p><!--[-->点击下图，可查看检测结果<!--]--></p>
+								<div><img src="原.jpg" style="width:100%;padding-top: 20rpx;" border="1"/></div>
+								
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="###">首页</a></li>
+								<li><a href="###">热搜</a></li>
+								
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+				
+	
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Untitled. Design: <a href="http://www.baidu.com">百度</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+            <script>
+                    //获取img元素
+                    var imgObj = document.querySelector("img");
+                    //给img元素绑定点击事件
+                    imgObj.addEventListener("click", function() {
+                        //当点击事件触发的时候改变图片的路径，将第二张图片引入。
+                        this.src = "标注.jpg";
+                    })
+                </script>
+	</body>
+</html>
